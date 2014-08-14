@@ -1,5 +1,6 @@
 armasquads-api-restclient
 =========================
+Master: [![Build Status](https://travis-ci.org/ins0/armasquads-api-restclient.svg?branch=master)](https://travis-ci.org/ins0/armasquads-api-restclient)
 
 php armasquads.com REST API client
 
