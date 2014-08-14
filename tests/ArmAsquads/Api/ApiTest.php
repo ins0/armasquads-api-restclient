@@ -11,6 +11,14 @@ class ApiTest extends AbstractApiTest
         $this->assertInstanceOf('ArmAsquads\Api\Client\CurlClient', $api->getClient());
     }
 
+    public function testGetAndSetAuthentication()
+    {
+        $api = $this->getApi(null);
+        $api->setAuthentication(new \ArmAsquads\Api\Authentication\HttpHeader('testToken'));
+
+        $this->assertInstanceOf('ArmAsquads\Api\Authentication\AuthenticationInterface', $api->getAuthentication());
+    }
+
     /**
      * @expectedException \ArmAsquads\Api\Exception\RequestFailedException
      */
