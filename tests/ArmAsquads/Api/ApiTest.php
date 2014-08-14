@@ -1,5 +1,5 @@
 <?php
-require_once('AbstractApiTest.php');
+require_once(dirname(__FILE__) . '/AbstractApiTest.php');
 
 class ApiTest extends AbstractApiTest
 {
