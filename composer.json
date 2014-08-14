@@ -1,23 +1,28 @@
 {
     "name": "ins0/armasquads-api-restclient",
-    "description": "ArmAsquads.com REST API PHP SDK",
-    "keywords": ["php","rest","api"],
+    "description": "ArmAsquads.com RESTful API SDK",
+    "keywords": ["php","rest","api","arma", "armasquads", "squads"],
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Marco Rieger",
             "homepage": "http://racecore.de/",
-            "email": "ins0@racecore.de"
+            "email": "rieger@racecore.de"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "ext-json" : "*"
     },
     "require-dev": {
-        "lib-curl": "*",
         "phpunit/phpunit": "4.1.*"
+    },
+    "suggest": {
+        "lib-curl": "*",
+        "lib-openssl": "*",
+        "ext-curl" : "*",
+        "ext-openssl" : "*"
     },
     "autoload": {
         "psr-0": {
