@@ -1,7 +1,14 @@
 <?php
 namespace ArmAsquads\Api\Entity;
 
-class Squad
+/**
+ * Class Squad
+ *
+ * @author      Marco Rieger
+ * @copyright   Copyright (c) 2013 Marco Rieger (http://racecore.de)
+ * @package     ArmAsquads\Api\Entity
+ */
+class Squad extends AbstractEntity
 {
     protected $id;
     protected $privateID;
