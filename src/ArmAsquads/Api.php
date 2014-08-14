@@ -10,6 +10,13 @@ use ArmAsquads\Api\Exception\RequestFailedException;
 use ArmAsquads\Api\Entity\Squad;
 use ArmAsquads\Api\Exception;
 
+/**
+ * Class Api
+ *
+ * @author      Marco Rieger
+ * @copyright   Copyright (c) 2013 Marco Rieger (http://racecore.de)
+ * @package     ArmAsquads
+ */
 class Api
 {
     CONST API_ENDPOINT      = 'https://armasquads.com/api';

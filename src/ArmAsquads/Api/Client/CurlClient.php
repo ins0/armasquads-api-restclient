@@ -4,6 +4,13 @@ namespace ArmAsquads\Api\Client;
 use ArmAsquads\Api\Authentication\AuthenticationInterface;
 use ArmAsquads\Api\Exception;
 
+/**
+ * Class CurlClient
+ *
+ * @author      Marco Rieger
+ * @copyright   Copyright (c) 2013 Marco Rieger (http://racecore.de)
+ * @package     ArmAsquads\Api\Client
+ */
 class CurlClient implements ClientInterface
 {
     /** @var  StatusCode */
